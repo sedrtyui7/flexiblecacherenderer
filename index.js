@@ -1,3 +1,3 @@
-function countConsonants(str) {
-  return str.match(/[bcdfghjklmnpqrstvwxyz]/gi).length;
-}
+const word = "hello";
+const reversedWord = word.split("").reverse().join("");
+console.log(reversedWord); // olleh
